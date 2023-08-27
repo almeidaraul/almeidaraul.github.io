@@ -1,74 +1,76 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Raul Almeida",
+    "label": "Computer Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "rgpalmeida@inf.ufpr.br",
+    "phone": "",
+    "url": "https://almeidaraul.github.io",
+    "summary": "Computer scientist pursuing a master's degree in Artificial Intelligence, working with Computer Vision",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Curitiba",
+      "countryCode": "BR",
+      "region": "Paraná"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "profiles": []
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "VRI, UFPR",
+      "position": "Computer Vision Researcher",
+      "url": "https://bovifocr.github.io/",
+      "startDate": "2021-10-01",
+      "endDate": "2024-10-01",
+      "summary": "Working on Face Anti-Spoofing with particular concerns for model locality and data-induced bias",
       "highlights": [
-        "Relativity"
+        "Face Anti-Spoofing"
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Universidade Federal do Paraná, Paraná, Brazil",
+      "url": "https://ufpr.br/",
+      "area": "Computational Intelligence",
+      "studyType": "Master's degree",
+      "startDate": "2022-10-01",
+      "endDate": "2024-10-01",
       "score": "",
       "courses": [
-        "Theory of Relativity"
+        "Bioinspired Computing",
+        "Topics in Databases: Scientific Data"
       ]
-    }
-  ],
-  "awards": [
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "Universidade Federal do Paraná, Paraná, Brazil",
+      "url": "https://ufpr.br/",
+      "area": "Computer Science",
+      "studyType": "Bachelor's degree",
+      "startDate": "2018-02-01",
+      "endDate": "2022-09-30",
+      "score": "84",
+      "courses": []
     }
   ],
+  "awards": [ ],
   "certificates": [],
   "publications": [],
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Portuguese",
       "fluency": "Native speaker"
     },
     {
       "language": "English",
       "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "Intermediate"
     }
   ],
   "interests": [],
