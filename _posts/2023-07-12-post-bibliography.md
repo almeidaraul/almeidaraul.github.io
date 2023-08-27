@@ -1,12 +1,19 @@
 ---
 layout: post
-title: a post with bibliography
-date: 2023-07-12 09:56:00-0400
-description: an example of a blog post with bibliography
-tags: formatting bib
-categories: sample-posts
-giscus_comments: true
+title: posts to do
+date: 2023-08-27 19:30:00-0300
+description: posts that I plan on writing
+tags: todo
+giscus_comments: false
 related_posts: false
-related_publications: einstein1950meaning, einstein1905movement
+related_publications: semeval21
 ---
-This post shows how to add bibliography to simple blog posts. If you would like something more academic, check the [distill style post]({% post_url 2018-12-22-distill %}).
+
+Posts that I plan on writing/posting here (for those already written):
+- Explanation of the SemEval paper
+- Making sense of PyTest imports
+- Finding/reading AI papers
+- Label smoothing, explained
+- Early stopping aux (as a post explaining early stopping)
+- Please use markdown
+- something about icpc br reg 2023 (campo grande)
