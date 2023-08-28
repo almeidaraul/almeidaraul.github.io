@@ -21,11 +21,62 @@
       "name": "VRI, UFPR",
       "position": "Computer Vision Researcher",
       "url": "https://bovifocr.github.io/",
-      "startDate": "2021-10-01",
+      "startDate": "2021-09-01",
       "endDate": "2024-10-01",
-      "summary": "Working on Face Anti-Spoofing with particular concerns for model locality and data-induced bias",
+      "summary": "Working on Face Anti-Spoofing with particular concerns for model locality and data-induced bias (advisor: David Menotti)",
       "highlights": [
-        "Face Anti-Spoofing"
+        "TO DO description"
+      ]
+    },
+    {
+      "name": "C3SL, UFPR",
+      "position": "Machine Learning/NLP Researcher",
+      "startDate": "2020-01-01",
+      "endDate": "2021-03-01",
+      "summary": "Scientific initiation project (advisor: Marcos Didonet del Fabro) on the Node2Vec algorithm for graph node embedding and word complexity estimation with NLP tools",
+      "highlights" [
+        "Took part in SemEval 2021 shared task 1"
+      ]
+    },
+    {
+      "name": "C3SL, UFPR",
+      "position": "Fullstack Developer (Internship)",
+      "url": "https://www.c3sl.ufpr.br/",
+      "startDate": "2019-05-01",
+      "endDate": "2020-12-31",
+      "summary": "Worked with both backend end frontend development",
+      "highlights": [
+        "Data unification with multiple databases",
+        "Backend development with NodeJS and Ruby on Rails",
+        "Frontend development with React and Angular",
+        "Modelling of a gamification overhaul for a social network"
+      ]
+    },
+    {
+      "name": "GFT",
+      "position": "Fullstack Developer (Internship)",
+      "url": "https://www.gft.com/",
+      "startDate": "2021-04-01",
+      "endDate": "2021-08-01",
+      "summary": "Training on both backend end frontend development",
+      "highlights": [
+        "Backend development with Spring",
+        "Frontend development with Angular"
+      ]
+    },
+    {
+      "name": "PET Computação, UFPR",
+      "position": "Cybersecurity Researcher and Frontend Developer (multiple projects)",
+      "url": "https://web.inf.ufpr.br/pet/",
+      "startDate": "2018-03-01",
+      "endDate": "2019-04-01",
+      "summary": "Worked on multiple projects in extension, research and education",
+      "highlights": [
+        "Organized a series of workshops on Computer Science",
+        "Presented workshops on basic web development and advanced use of text editors (VIm, EMACS)",
+        "Developed the frontend for a website with past exercises to help students prepare for exams",
+        "Organized and supported a series of study groups to help students prepare for upcoming exams in CS",
+        "Researched Ant Colony Optimization for use in call graphs in detecting malware software"
       ]
     }
   ],
