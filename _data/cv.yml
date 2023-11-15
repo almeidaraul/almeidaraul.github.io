@@ -56,16 +56,30 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2020 - now
+    - title: <a href="https://github.com/almeidaraul/glikoz">Glikoz</a>
+      year: 2018 - now
       description: Glucose and insulin use data analysis for diabetes therapy
+    - title: <a href="https://github.com/almeidaraul/hmi">HMI</a>
+      year: 2020 - now
+      description: Insulin dosage calculator
 
 - title: Competitive Programming
   type: time_table
   contents:
-    - year: 2018
+    - year: 2019
       items: 
-        - TO DO
+        - ICPC Brazilian Subregionals 2019/20
+    - year: 2021
+      items: 
+        - ICPC Brazilian Subregionals 2021/22
+    - year: 2022
+      items: 
+        - ICPC Brazilian Subregionals 2022/23
+        - ICPC Brazilian Finals 2022/23
+    - year: 2023
+      items: 
+        - ICPC Brazilian Subregionals 2023/24
+        - ICPC Brazilian Finals 2023/24
 
 - title: Academic Interests
   type: nested_list
