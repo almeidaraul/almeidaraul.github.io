@@ -70,8 +70,8 @@ a couple of things to notice here:
    the real probability of the same class, $\textrm{CELoss} = -(\sum_{k\in\textrm{classes}}\log(p_k)\textrm{expected}_k )$
 
 So we can conclude that if you're minimizing CE, you're aiming to maximize the
-log-likelihood of the correct label. **You can't maximize this with
-finite values of $\textrm{logits}_k$**. You can, however, get pretty close by making
+log-likelihood of the correct label. **You can't** maximize this with
+finite values of $\textrm{logits}_k$ . You can, however, get pretty close by making
 $\textrm{logits}_{\textrm{true class}} \gg \textrm{logits}_i \forall \i \neq \textrm{true class}$,
 i.e., by making the ground-truth class logit much greater than all others. If you've read the
 short explanation, this is what I meant by "infinitely greater".
