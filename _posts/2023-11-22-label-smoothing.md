@@ -1,11 +1,17 @@
 ---
-layout: post
+layout: distill
 title: Label Smoothing - what it solves and how it works
 date: 2023-11-22 15:25:00-0300
 description: An intuitive explanation of label smoothing
 tags: machine_learning
 giscus_comments: false
 bibliography: 2023-11-22-label-smoothing.bib
+
+authors:
+  - name: Raul Almeida
+    url: "https://almeidaraul.github.io"
+    affiliations:
+      name: DInf, UFPR
 ---
 
 ## Introduction
@@ -38,7 +44,7 @@ a model that doesn't adapt well yet feels pretty confident about its decisions
 (☢ overfitting, poor generalization ☢).
 
 Label smoothing consists of choosing an Epsilon value and changing the ground-
-truth labels `y` as follows: $y \gets (1-\epsilon)y + \frac{\epsilon}{|y|}$.
+truth labels `y` as follows: $y = (1-\epsilon)y + \frac{\epsilon}{|y|}$.
 
 With this, nothing is infinitely greater than anything anymore, and your model
 learns to keep outputs adequate.
@@ -91,9 +97,7 @@ the final problem that label smoothing solves.
 ### The solution
 Now we need to solve this confidence issue with your model. What the
 authors<d-cite key="resnet"></d-cite> proposed is to change
-the ground-truth label `y` as follows:
-
-$y \gets (1-\epsilon)y + \frac{\epsilon}{|y|}$
+the ground-truth label `y` as follows: $y = (1-\epsilon)y + \frac{\epsilon}{|y|}$
 
 Or,
 
