@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: post
 title: Label Smoothing - what it solves and how it works
 date: 2023-11-22 15:25:00-0300
 description: An intuitive explanation of label smoothing
@@ -38,9 +38,7 @@ a model that doesn't adapt well yet feels pretty confident about its decisions
 (☢ overfitting, poor generalization ☢).
 
 Label smoothing consists of choosing an Epsilon value and changing the ground-
-truth labels `y` as follows:
-
-$y \gets (1-\epsilon)y + \frac{\epsilon}{|y|}$
+truth labels `y` as follows: $y \gets (1-\epsilon)y + \frac{\epsilon}{|y|}$.
 
 With this, nothing is infinitely greater than anything anymore, and your model
 learns to keep outputs adequate.
