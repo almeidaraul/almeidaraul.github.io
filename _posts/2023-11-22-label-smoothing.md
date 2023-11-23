@@ -71,9 +71,9 @@ a couple of things to notice here:
 
 So we can conclude that if you're minimizing CE, you're aiming to maximize the
 log-likelihood of the correct label. **You can't maximize this with
-finite values of `logits[k]`**. You can, however, get pretty close by making
-`logits[true class] >> logits[i]` for all `i != true class`, i.e., by making
-the ground-truth class logit much greater than all others. If you've read the
+finite values of $\textrm{logits}_k$**. You can, however, get pretty close by making
+$\textrm{logits}_{\textrm{true class}} \gg \textrm{logits}_i \forall \i \neq \textrm{true class}$,
+i.e., by making the ground-truth class logit much greater than all others. If you've read the
 short explanation, this is what I meant by "infinitely greater".
 
 Making the ground-truth class logit much greater than all others leads to two
@@ -86,10 +86,10 @@ representation.
 **Little adaptation capability.** It is easy to see at this point that your
 model is encouraged to output logits so that the largest one is a lot different
 than all others. What's important to notice here, is that the gradient
-$\frac{\partial\textrm{CELoss}}{\partial\textrm{true class logits}}$ is in the range `[-1, 1]`, which
-reduces the model's ability to adapt. You can see this as encouraging the model
-to create very radical outputs and then not being able to make corresponding
-radical corrections in the optimization step (because the gradient doesn't
+$\frac{\partial\textrm{CELoss}}{\partial\textrm{true class logits}}$ is in the range
+$[-1, 1]$, which reduces the model's ability to adapt. You can see this as
+encouraging the model to create very radical outputs and then not being able to make
+corresponding radical corrections in the optimization step (because the gradient doesn't
 explode like the weights do).
 
 In summary, these two problems mean your **model is too confident,** which is
@@ -98,7 +98,7 @@ the final problem that label smoothing solves.
 ### The solution
 Now we need to solve this confidence issue with your model. What the
 authors<d-cite key="resnet"></d-cite> proposed is to change
-the ground-truth label `y` as follows: $y = (1-\epsilon)y + \frac{\epsilon}{|y|}$
+the ground-truth label $y$ as follows: $y = (1-\epsilon)y + \frac{\epsilon}{|y|}$
 
 Or,
 
