@@ -6,6 +6,7 @@ description: An intuitive explanation of label smoothing
 tags: machine_learning
 giscus_comments: false
 bibliography: 2023-11-22-label-smoothing.bib
+related_posts: false
 
 authors:
   - name: Raul Almeida
