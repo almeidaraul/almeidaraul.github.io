@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making sense of PyTest imports
-date: 2023-11-22 21:10:00-0300
+date: 2023-11-22 15:10:00-0300
 description: Importing things from sibling directories
 tags: python
 giscus_comments: false

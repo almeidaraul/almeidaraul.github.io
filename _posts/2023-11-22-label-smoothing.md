@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Label Smoothing - what it solves and how it works
-date: 2023-11-22 21:25:00-0300
+date: 2023-11-22 15:25:00-0300
 description: An intuitive explanation of label smoothing
 tags: machine_learning
 giscus_comments: false
