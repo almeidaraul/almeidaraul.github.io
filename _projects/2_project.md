@@ -2,7 +2,6 @@
 layout: page
 title: HMI
 description: Calculate insulin dosage
-img: assets/img/3.jpg
 importance: 2
 category: work
 ---
