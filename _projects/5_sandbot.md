@@ -4,6 +4,7 @@ title: Sandbot
 description: Find out at what time to sleep or go to bed (Telegram bot)
 img:
 importance: 3
+category: github
 ---
 
 This is a Telegram bot that calculates your recommended wake-up time from

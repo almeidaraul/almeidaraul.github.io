@@ -4,6 +4,7 @@ title: El ICPC Bot
 description: ICPC eligibility test bot 
 img:
 importance: 3
+category: github
 ---
 
 This is a Telegram bot that computes whether a user is expected to be

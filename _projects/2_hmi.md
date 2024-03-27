@@ -3,6 +3,7 @@ layout: page
 title: HMI
 description: Calculate insulin dosage
 importance: 2
+category: github
 ---
 
 HMI (How Much Insulin) is an insulin dosage calculator for

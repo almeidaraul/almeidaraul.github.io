@@ -4,6 +4,7 @@ title: KindaLisa
 description: Compare LoL characters with Blackpink members using machine learning
 img:
 importance: 3
+category: github
 ---
 
 This is a joke project to map each LoL character with

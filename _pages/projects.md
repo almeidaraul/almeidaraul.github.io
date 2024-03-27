@@ -5,7 +5,7 @@ permalink: /projects/
 description: Some of my personal projects involving programming.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [github]
 horizontal: false
 ---
 

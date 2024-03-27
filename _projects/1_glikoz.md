@@ -4,6 +4,7 @@ title: Glikoz
 description: Glucose and insulin use data analysis for diabetes therapy
 img: assets/img/glikoz_logo.png
 importance: 1
+category: github
 ---
 
 Glikoz is a glucose and insulin use data analysis tool to assist
