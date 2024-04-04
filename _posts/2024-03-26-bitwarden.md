@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Uma introdução informal ao Bitwarden (PT-BR)
+title: (PT-BR) Uma introdução informal ao Bitwarden
 date: 2024-03-26 21:35:00-0300
-description: Entenda porque usar um gerenciador de senhas
+description: A casual introduction to password managers and Bitwarden
 tags: cybersecurity
 giscus_comments: false
 related_posts: false
