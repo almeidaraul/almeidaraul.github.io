@@ -24,9 +24,7 @@ HMI takes into account these three parameters and calculates
 how many insulin units you should take. The way this dosage
 is calculated can also be configured by the user.
 
-<div class="text-center">
-    {% include figure.html path="assets/img/hmi_screenshot.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-</div>
+{% include figure.html path="assets/img/hmi_screenshot.png" class="img-fluid rounded z-depth-1 mx-auto" zoomable=true %}
 <div class="caption">
 A screenshot of the dosage calculator view in HMI
 </div>

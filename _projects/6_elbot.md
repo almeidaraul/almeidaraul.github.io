@@ -14,9 +14,7 @@ focus on people who are new to Competitive Programming, as these rules
 can often be confusing and even conflicting depending on translation
 details.
 
-<div class="text-center">
-    {% include figure.html path="assets/img/icpc_flowchart.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-</div>
+{% include figure.html path="assets/img/icpc_flowchart.png" class="img-fluid rounded z-depth-1 mx-auto" zoomable=true %}
 <div class="caption">
 A flowchart of the eligibility rules. They can be very confusing. [Source: Livreto de Introdução à Maratona de Programação - UFPR](https://www.inf.ufpr.br/maratona/livreto.pdf)
 </div>
