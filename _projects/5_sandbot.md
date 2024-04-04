@@ -20,7 +20,7 @@ you wake up at the end of a cycle, not in the middle of it).
     </div>
 </div>
 <div class="caption">
-An illustration of the sleep cycle. [Source: The Sleep Judge](https://www.thesleepjudge.com/wp-content/uploads/2019/09/image1.jpg)
+An illustration of the sleep cycle. Source: <a href="https://www.thesleepjudge.com/wp-content/uploads/2019/09/image1.jpg">The Sleep Judge</a>
 </div>
 
 The name Sandbot comes from the Sandman myth, a being who can control someone's
