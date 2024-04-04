@@ -3,6 +3,7 @@ layout: page
 title: HMI
 description: Calculate insulin dosage
 importance: 2
+img: assets/img/hmi_header.jpg
 category: github
 ---
 

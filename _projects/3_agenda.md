@@ -2,7 +2,7 @@
 layout: page
 title: Agenda
 description: Simple scheduler for executing detailed command-line programs
-img: assets/img/7.jpg
+img: 
 importance: 3
 category: github
 ---
