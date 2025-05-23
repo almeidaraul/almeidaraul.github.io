@@ -2,21 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: rgpalmeida@inf.ufpr.br
+subtitle: raul.almeida@canonical.com
 
 profile:
   align: right
   image: prof_pic.png
   image_circular: true # crops the image to make it circular
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Computer Scientist (bachelor's degree from UFPR, 2022) pursuing a master's degree in Computational Intelligence at UFPR (:pushpin: Curitiba, Brazil). Currently working with Computer Vision, more specifically in Face Anti-Spoofing.
+Computer Scientist (bachelor's degree from UFPR, 2022; MSc from UFPR, 2025). Currently working as a Software Engineer at Canonical, specifically in Cloud QA.
 
-I am also an active member of the CAPIMARA competitive programming group in UFPR.
+Until very recently I was an active member of the CAPIMARA competitive programming group in UFPR.
 
-My interests are algorithms, system design and data engineering.
+My interests are algorithms, data analysis and system design.

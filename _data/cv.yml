@@ -11,7 +11,7 @@
   contents:
     - title: Master's Degree
       institution: Universidade Federal do Paraná, Curitiba, Brazil
-      year: 2024
+      year: 2025
     - title: Bachelor's Degree in Computer Science
       institution: Universidade Federal do Paraná, Curitiba, Brazil
       year: 2022
@@ -19,9 +19,21 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Software Engineer
+      institution: Canonical
+      year: 2025 - NOW
+      description:
+        - Cloud QA
+    - title: Software Engineer
+      institution: Rei do Pitaco
+      year: 2025 - 2025
+      description:
+        - Development of hypermedia-driven components
+        - Backend component optimization for querying large data volumes
+        - Integration of essential workflows with observability tools
     - title: Computer Vision Researcher
       institution: VRI, UFPR
-      year: 2021 - now
+      year: 2021 - 2025
       description:
         - Working on Face Anti-Spoofing with particular concerns for model locality and data-induced bias (advised by David Menotti)
     - title: Machine Learning/NLP Researcher
@@ -80,6 +92,10 @@
       items: 
         - ICPC Brazilian Subregionals 2023/24
         - ICPC Brazilian Finals 2023/24
+    - year: 2024
+      items:
+        - ICPC Brazilian Subregionals 2024/25
+        - ICPC Brazilian Finals 2024/25
 
 - title: Academic Interests
   type: nested_list
@@ -87,3 +103,5 @@
     - title: Competitive Programming
     - title: Computer Vision
     - title: Data Science
+    - title: System Design
+    - title: Deep Learning
